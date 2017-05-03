@@ -1,4 +1,3 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
 
 module.exports = {
@@ -29,12 +28,8 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist'
-    // historyApiFallback: true
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   template: 'src/index.html'
-    // }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV':
       JSON.stringify(process.env.NODE_ENV)

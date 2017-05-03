@@ -1,10 +1,11 @@
 {
-  "name": "wiki-react",
+  "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "Wikipedia search app made with React",
+  "description": "Minimal boilerplate for react",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --progress --inline --colors --hot --config ./webpack.config.js",
+    "build": "NODE_ENV='production' webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
