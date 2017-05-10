@@ -12,9 +12,9 @@ module.exports = {
         loader: 'babel-loader'
       },
       {
-        test: /\.css$/,
+        test: [/\.css$/, /\.scss$/],
         exclude: /node_modules/,
-        loader: 'style-loader!css-loader'
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
