@@ -1,4 +1,4 @@
-# Visualize Data with a Heat Map
+# Visualize Data with a Heat Map ([Demo](https://d3-heatmap-drhectapus.herokuapp.com/))
 
 Data visualization project from FreeCodeCamp built using React and D3.
 
